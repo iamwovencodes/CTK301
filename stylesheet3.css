@@ -1,0 +1,45 @@
+#backgroundcolor{
+    background-color: #c62d42;
+}
+
+.class2{
+    background-color: beige;
+}
+
+.class1{
+    color: whitesmoke;
+}
+
+.class3{
+color: #c62d42;
+}
+
+.class4{
+    color: #c62d42;
+}
+
+a {
+    color: #c62d42;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: green;
+  }
+
+  a:active {
+    color: #00ffff;
+  }
+  
+  a:hover {
+    color: yellow;
+    text-decoration: underline;
+  } 
+
+  h2{
+    color: #c62d42;
+  }
+
+  h3{
+    color:green;
+  }
