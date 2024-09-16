@@ -1,0 +1,62 @@
+h1{
+color: white;
+}
+
+a{
+    color: green;
+}
+
+  a:visited {
+    color: #0000ff;
+  }
+
+  a:hover {
+    color: #ffff00;
+  }  
+
+
+.backgroundcolor{
+    background-color: skyblue;
+}
+
+h2{
+color: blue;
+}
+
+.inline{
+    color: orange;
+}
+
+
+.inferno{
+    color: red;
+}
+.color{
+    background-color: yellow;
+}
+
+.textcolor{
+    color: red;
+}
+
+h3{
+    background-color: yellow;
+}
+
+h4{
+    color: yellow;
+    background-color: green;
+}
+
+.fathersday{
+    background-color: lightgreen;
+}
+
+
+h5{
+    color: red;
+}
+
+.doctorsdaughter{
+    background-color: yellow;
+}
