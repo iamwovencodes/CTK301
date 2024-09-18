@@ -1,0 +1,79 @@
+
+body{
+    background-color: #c62d42;
+    background-image: url(mybackground.jpg);
+}
+
+.imgbox {
+   padding: 20px 20px 20px 20px; 
+   background-color: yellow;
+   border: 10px solid black;
+    
+
+}
+
+.customtext{
+    font-family:Helvetica;
+}
+
+.textcenter{
+    text-align: center;
+}
+
+.textjustify{
+text-align: justify;
+}
+
+h1{
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h2{
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3{
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.class2{
+    background-color: beige;
+}
+
+.class1{
+    color: orange;
+}
+
+.class3{
+color: red;
+}
+
+.class4{
+    color: orange;
+}
+
+a {
+    color: #c62d42;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: green;
+  }
+
+  a:active {
+    color: #00ffff;
+  }
+  
+  a:hover {
+    color: yellow;
+    text-decoration: underline;
+  } 
+
+ 
