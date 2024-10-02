@@ -1,0 +1,127 @@
+body{
+    background-image: url(a62.png);
+    
+}
+
+#wrapper{
+width: 960px;
+border: 3px solid black;
+margin: 1em auto;
+background-color: white;
+display:grid;
+grid-template-columns: repeat(6 1fr);
+grid-template-rows: 1fr;
+}
+
+header{
+    grid-column: span 6;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    
+}
+
+nav{
+    grid-column: span 1;
+
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+ 
+nav li{
+border: 1px;
+margin: 10px;
+width: 160px;
+background-color: red;
+text-decoration: none;
+display: block;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+
+}
+
+nav li a:hover{
+    background-color: rgb(159, 45, 45);
+    text-decoration: none;
+    color: white;
+    
+}
+
+main{
+    margin-left: 1em;
+    margin-right: 1em;
+    grid-column: span 4;
+  
+}
+
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid black;
+    padding: 0;
+    margin: 0 0 10px 0;
+    }
+
+
+.floatingpic{
+    float: left;
+    border: 3px solid black;
+    padding: 10px 20px 0 10px;
+    margin:10px 20px 0 10px;
+}
+
+.Georgia{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: medium;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+p{
+    padding-right: 30px;
+    padding-left:  3px; ;
+}
+
+
+a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+a:hover{
+   color: blue;
+    text-decoration: underline;
+}
+
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: small;
+    color: white;
+    clear: both;
+    background-color: red;
+    grid-column:span 6;
+    border-top: 3px solid black;
+    margin: 0;
+    padding-right: 90px;
+    padding-left: 90px;
+    text-align: center;
+ 
