@@ -1,0 +1,218 @@
+body {
+  background-color: #ECEBEB;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+ 
+}
+
+
+nav{
+  grid-column: span 12;
+
+
+}
+
+nav ul{
+  color: black;
+  text-align: center;
+  margin: 40px;
+}
+
+nav li{
+  display: inline;
+  text-decoration: none;
+  padding: 12px;
+border: 12px;
+margin: 12px;
+  
+}
+
+nav li a{
+  color: #3D3B3B;
+  text-align: right;
+  text-decoration: none;
+
+}
+
+nav li :hover{
+  text-decoration: underline;
+}
+
+.looper{
+ float: left;
+ position: absolute;
+  width: 50px;
+}
+
+header{
+  grid-column: span 12;
+  text-align: center;
+  padding: 150px;
+}
+
+h1{
+  border-bottom: 4px solid #5E4B9B;
+  border-right-style: 147px;
+padding: 24px;
+}
+
+main{
+  grid-column: span 12;
+}
+
+.mywork{
+grid-column: span 12;
+background-image: linear-gradient(to right left, #C8BFE5) #C5BCE3;
+ background-color: #9880e5;
+ padding: 20px 40px 40px 40px;
+
+}
+
+.mywork li{
+  text-decoration: none;
+  background-image: linear-gradient(to right left, #674188, #C8A1E0);
+ background-color: #5E4B9B;
+  display: inline;
+  padding:24px;
+  margin: 24px;
+  grid-column: span 12;
+ font-family: Arial, Helvetica, sans-serif;
+ border-radius: 99px;
+ 
+ }
+
+.mywork ul{
+  text-align: center;
+  color: white;
+}
+
+.mywork li a{
+  text-decoration: none;
+}
+
+.mywork a{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.text1{
+  color: #3D3B3B;
+  padding-left: 60px;
+  padding-bottom: 24px;
+  padding-top: 12px;
+}
+
+section{
+padding: 80px;
+
+}
+
+
+#Work{
+  display: grid;
+  grid-auto-columns: 1fr 1fr;
+  
+  }
+  
+  .workheading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 20px;
+    grid-column: span 2;
+  }
+
+
+.webdevelopment{
+ border: 1px solid grey;
+ padding: 12px;
+ margin: 12px;
+}
+
+
+.webp{
+  border: 0;
+  padding: 0;
+}
+
+
+.uiux{
+  border: 1px solid grey;
+  padding: 12px;
+  margin: 12px;
+}
+
+.Photography{
+  border: 1px solid grey;
+  padding: 12px;
+  margin: 12px;
+}
+
+.contentgeneration{
+  border: 1px solid grey;
+  padding: 12px;
+  margin: 12px;
+}
+
+
+.petprojectcontainer{
+  grid-column: span 12;
+  padding: 24px;
+  margin: 0;
+  border: 0;
+  background-color: #ECEBEB;
+}
+
+.petproject{
+ 
+}
+
+.peth2{
+  padding: 24px;
+}
+
+
+.wovenschool{
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+  background-color: #5E4B9B;
+  grid-column: span 12;
+  width: 100%;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-align: center;
+  border: 0;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+ 
+}
+
+
+footer li{
+  display: inline;
+}
+
+footer li a{
+  text-decoration: none;
+  color: skyblue;
+  display: inline;
+  padding: 10px;
+
+}
+
+
+
