@@ -1,0 +1,93 @@
+body {
+    background-color: #ECEBEB;
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+   
+  }
+
+  nav{
+    grid-column: span 12;
+  
+  
+  }
+  
+  nav ul{
+    color: black;
+    text-align: center;
+    margin: 40px;
+  }
+  
+  nav li{
+    display: inline;
+    text-decoration: none;
+    padding: 12px;
+  border: 12px;
+  margin: 12px;
+    
+  }
+  
+  nav li a{
+    color: #3D3B3B;
+    text-align: right;
+    text-decoration: none;
+  
+  }
+  
+  nav li :hover{
+    text-decoration: underline;
+  }
+
+  .header{
+    grid-column: span 12;
+    background-color: white;
+    background-image: ;
+  }
+
+
+main{
+
+    grid-column: span 12;
+    background-color: white;
+text-align: center;
+padding: 24px;
+}
+
+.dress{
+  text-align: left;
+  margin: 24px; 
+}
+
+#myCarousel {
+  margin-bottom: 24px;
+}
+
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  background: #eee;
+}
+
+footer{
+  background-color: rgb(46, 46, 46);
+  color: white;
+  grid-column: span 12;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  text-align: center;
+  border: 0;
+  height: 200px;
+  text-align: right;
+
+}
+
+.copyright{
+  padding: 48px;
+}
