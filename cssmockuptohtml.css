@@ -1,9 +1,11 @@
 body {
   background-color: #ECEBEB;
+ 
 }
 
 #wrapper {
   margin: 24px auto;
+  padding: 0;
   width: 1200px;
   background-color: #ffffff;
   display: grid;
@@ -12,20 +14,8 @@ body {
  
 }
 
-/*
-.noto-sans-<uniquifier> {
-  font-family: "Noto Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-*/
-
 nav{
   grid-column: span 12;
-
 
 }
 
@@ -58,7 +48,8 @@ nav li :hover{
 .looper{
  float: left;
  position: absolute;
-  width: 50px;
+  width: 250px;
+  overflow: hidden;
 }
 
 header{
@@ -78,6 +69,8 @@ text-shadow: 1.5px 2px 1.5px #5f5e5e; /* x, y, blur, color */
 
 main{
   grid-column: span 12;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .mywork{
@@ -294,7 +287,7 @@ footer{
 
 .get{
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   text-transform: capitalize;
   color: white;
@@ -303,6 +296,11 @@ footer{
   height: 80px;
 }
 
+.icons{
+  text-align: center;
+  padding-bottom: 12px;
+  font-size: small;
+}
 
 .bi{
   font-size: 32px;
@@ -387,7 +385,9 @@ footer{
   
 
   #titlewebvideo{
-    background-color: #C8BFE5;
+    margin-left: 24px;
+    padding: 12px;
+
   }
 
 .clear{
@@ -426,16 +426,34 @@ footer{
 }
 
 
-/*Graphics Design Section*/
+/*Digital Content*/
+
+.column{
+background-image: url(contactbackground.jpg);
+text-align: center;
+}
 
 .graphics{
-  grid-column: span 3;
   text-align: left;
   padding: 12px;
   margin: 12px;
-  /* border: 12px solid gray; */
   
+
 }
+
+.beyond4{
+  border: 1px solid gray;
+}
+
+
+
+.beyond5{
+padding: 8px;
+margin: 8px;
+border:0;
+
+}
+
 
 #myCarousel {
   margin-bottom: 24px;
@@ -450,48 +468,97 @@ footer{
 
 /*Photography*/
 
-.photo{
-  background-image: url(brownhouse.jpg);
+#photographysection{
+  background-image: url(contactbackground.jpg);
+  text-align: center;
 }
 
-.textword{
-  color: white;
-  background-color: #b9b9b9;
-  border-radius: 80px;
+.photographyimg{
+  padding-left: 80px;
+  margin-bottom: 24px;
+  text-align: left;
 }
 
-
-
-
-
-
-/*
-
-.bi-medium{
-  font-size: 80px;
+#myCarousel {
+  margin-bottom: 24px;
 }
 
-
-/*
-footer ul {
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
- 
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 24px;
+  background: #eee;
 }
 
 
-footer li{
-  display: inline;
+/*About Me */
+
+.bodyback{
+background-image: url(contactbackground.jpg);
 }
 
-footer li a{
-  text-decoration: none;
-  color: skyblue;
-  display: inline;
-  padding: 10px;
 
+.aboutmain{
+  margin-left: 1em;
+  margin-right: 1em;
+  grid-column: span 12;
 }
 
-*/
+.imagemin{
+  width: 100%;
+}
 
+.sectionpart{
+  margin-bottom: 24px;
+}
+
+.aboutsection{
+  padding: 24px;
+  border: 24px;
+  margin-bottom: 24px;
+}
+
+
+.img{
+  width: 300px;
+  
+  margin-bottom: 24px;
+  margin-right: 24px;
+  float: left;
+  border-radius: 300px;
+}
+
+.Aboutme{
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+
+
+
+/*Contact Page*/
+.theform{
+background-image: url(contactbackground.jpg);
+padding: 10px;
+margin: 10px;
+text-align: center;
+border: 2px solid #674188;
+
+}
+form{
+  grid-column: span 2;
+  padding: 24px;
+  margin: 10px;
+  border: 2px solid #674188;
+}
+
+.email{
+  padding: 24px;
+  margin: 0;
+  border: 0;
+}
+
+.message{
+  text-align: left;
+  content: "\a";
+  white-space: pre;
+}
